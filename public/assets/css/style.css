@@ -1,0 +1,148 @@
+.carousel-img {
+    max-height: 100vh;
+}
+
+.carousel-caption {
+    border-top: 10px solid goldenrod;
+    background-color: #00000094;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.primary {
+    color: goldenrod;
+}
+
+.active {
+    color: goldenrod !important;
+}
+
+.title-container {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.title-container h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: goldenrod;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.about-us-title {
+    font-size: 50px;
+}
+
+.about-us-subtitle {
+    font-size: 20px;
+}
+
+.card-icon {
+    transition: 0.5%;
+}
+
+.card-icon:hover {
+    color: goldenrod;
+}
+
+.masonry-sizer,
+.masonry-item {
+    width: 30%;
+}
+
+.brand-image {
+    width: 50%;
+    object-fit: cover;
+    filter: grayscale();
+    transition: 0.5%;
+}
+
+.brand-image:hover {
+    filter: grayscale(0);
+}
+
+a {
+    color: white;
+}
+
+.btn-subscribe,
+.btn-to-top {
+    background: goldenrod;
+}
+
+.btn-to-top {
+    display: inline;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.bg-darker {
+    background: #111;
+}
+
+.gallery-filters li {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.gallery-filters .filter-active,
+.breadcumbs {
+    background: goldenrod;
+}
+
+.breadcumbs {
+    margin-top: 92px;
+}
+
+.breadcumbs ol li + li::before {
+    display: inline-block;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* padding-top: 7px; */
+    content: "/";
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-materials {
+    width: 70%;
+    object-fit: cover;
+}
+
+.img-logo {
+    width: 150px;
+    /* height: 60px; */
+    float: none;
+    display: block;
+}
+
+.btn-submit {
+    background: goldenrodenrod;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .masonry-sizer,
+    .masonry-item {
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    .masonry-sizer,
+    .masonry-item {
+        width: 100%;
+    }
+}
+

@@ -12,12 +12,21 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
+                aria-current="true" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <img src="/assets/img/Happy_New_Year_2023.jpg" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>HAPPY NEW YEAR 2023</h5>
+                    <p>May this year bring new happiness, new goals, new achievements, and a lot of new inspirations on your life. Wishing you a year fully loaded with happiness. Wishing every day of the new year to be filled with success, happiness, and prosperity for you. Happy New Year!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
                 <img src="/assets/img/slide_1.jpg" class="d-block w-100 carousel-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>LAND TRANSPORTATION</h5>

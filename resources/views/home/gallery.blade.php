@@ -21,10 +21,27 @@
     <!-- end breadcumbs -->
 
     <!-- gallery -->
+
+    <div class="container mt-5">
+        <div class="title-container">
+            <h2 class="text-center fw-bold">GALLERY VIDEO</h2>
+        </div>
+        <div class="containerVideo mt-3">
+            <div class="video-list">
+                <video class="active" src="/assets/video/PMC New Year 1080p.mp4" muted></video>
+                <video src="/assets/video/New Year PMC.mp4" muted></video>
+            </div>
+            <div class="main-video">
+                <video src="/assets/video/PMC New Year 1080p.mp4" muted controls></video>
+            </div>
+        </div>
+
+    </div>
+
     <div class="gallery mt-5">
         <div class="container">
             <div class="title-container">
-                <h2 class="text-center fw-bold">GALLERY</h2>
+                <h2 class="text-center fw-bold">GALLERY PHOTO</h2>
             </div>
             <div class="row mt-4">
                 <div class="col-md-12 d-flex justify-content-center">
@@ -39,6 +56,15 @@
                 <div class="col-md-12">
                     <div class="masonry gallery-container" data-aos="zoom-in-up">
                         <div class="masonry-sizer"></div>
+                        <div class="masonry-item m-2 gallery-item filter-worker">
+                            <img src="/assets/img/worker_8.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="masonry-item m-2 gallery-item filter-worker">
+                            <img src="/assets/img/worker_9.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="masonry-item m-2 gallery-item filter-worker">
+                            <img src="/assets/img/worker_10.jpeg" alt="" class="img-fluid">
+                        </div>
                         <div class="masonry-item m-2 gallery-item filter-worker">
                             <img src="/assets/img/worker_1.jpeg" alt="" class="img-fluid">
                         </div>
@@ -114,3 +140,15 @@
 
 </html>
 
+<script>
+    $(document).ready(function() {
+
+        $('.video-list video').click(function() {
+
+            $(this).addClass('active').siblings().removeClass('active');
+
+            let src = $(this).attr('src')
+            $('.main-video video').attr('src',src);
+        });
+    });
+</script>

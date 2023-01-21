@@ -28,14 +28,13 @@
         </div>
         <div class="containerVideo mt-3">
             <div class="video-list">
-                <video class="active" src="/assets/video/PMC New Year 1080p.mp4" muted></video>
-                <video src="/assets/video/New Year PMC.mp4" muted></video>
+                <video class="active" src="/assets/video/Video Chinese New Year PMC.mp4" muted></video>
+                {{-- <video src="/assets/video/New Year PMC.mp4" muted></video> --}}
             </div>
             <div class="main-video">
-                <video src="/assets/video/PMC New Year 1080p.mp4" muted controls></video>
+                <video src="/assets/video/Video Chinese New Year PMC.mp4" muted controls></video>
             </div>
         </div>
-
     </div>
 
     <div class="gallery mt-5">

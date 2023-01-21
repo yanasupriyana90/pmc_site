@@ -38,7 +38,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <i class="fa-solid fa-check-double primary"></i>
-                        Ocean, Air and Sea Air Transportation;
+                        Ocean and Air Transportation;
                     </li>
                     <li class="list-group-item">
                         <i class="fa-solid fa-check-double primary"></i>

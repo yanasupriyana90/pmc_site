@@ -20,10 +20,10 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/assets/img/Happy_New_Year_2023.jpg" class="d-block w-100 carousel-img" alt="...">
+                <img src="/assets/img/Chinese New Year Lanscape.jpg" class="d-block w-100 carousel-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>HAPPY NEW YEAR 2023</h5>
-                    <p>May this year bring new happiness, new goals, new achievements, and a lot of new inspirations on your life. Wishing you a year fully loaded with happiness. Wishing every day of the new year to be filled with success, happiness, and prosperity for you. Happy New Year!</p>
+                    <h5>HAPPY CHINESE NEW YEAR 2023</h5>
+                    <p>Good fortune is ahead! May you and your family have a prosperous and joyful New Year!</p>
                 </div>
             </div>
             <div class="carousel-item">

@@ -19,14 +19,14 @@
                 aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            {{-- <div class="carousel-item active">
                 <img src="/assets/img/Chinese New Year Lanscape.jpg" class="d-block w-100 carousel-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>HAPPY CHINESE NEW YEAR 2023</h5>
                     <p>Good fortune is ahead! May you and your family have a prosperous and joyful New Year!</p>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </div> --}}
+            <div class="carousel-item active">
                 <img src="/assets/img/slide_1.jpg" class="d-block w-100 carousel-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>LAND TRANSPORTATION</h5>
@@ -287,7 +287,7 @@
     <!-- end gallery -->
 
     <!-- client -->
-    <div class="clients mt-5">
+    {{-- <div class="clients mt-5">
         <div class="container">
             <div class="title-container">
                 <h2 class="text-center fw-bold">OUR PARTNERS</h2>
@@ -332,7 +332,7 @@
             </div>
         </div>
 
-    </div>
+    </div> --}}
     <!-- end client -->
 
     <!-- footer -->
